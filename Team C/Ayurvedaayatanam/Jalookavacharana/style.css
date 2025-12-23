@@ -510,7 +510,7 @@ footer {
 }
 
 /* Small Mobile Devices (360px and below) - Samsung Galaxy S8+ fix */
-@media (max-width: 400px) {
+@media (max-width: 400px) and (min-width:400px) {
     .title {
         font-size: 1.8rem;
     }
